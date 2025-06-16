@@ -1,0 +1,45 @@
+body {
+    background: url('/images/background.png') no-repeat ;
+    background-size: 80%;
+    background-color: rgb(14, 13, 13);
+    background-position: top right;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 0px 1px 4px whitesmoke;
+}
+
+.post {
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 32px;
+}
+
+.post:hover {
+    transition: transform 0.1s ease;
+}
+
+.icon_contact{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    /* width: 90%; */
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 10px;
+    color: azure;
+}
+.icon_contact a {
+    margin: 10px;
+}
+.src{
+    text-align: center;
+    color: aliceblue;
+}
+.icon_contact a :hover {
+    transform: scale(1.2);
+}
