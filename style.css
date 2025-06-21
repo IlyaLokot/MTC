@@ -1,5 +1,5 @@
 body {
-    background: url('images/background.png') no-repeat ;
+    background: url('images/background.png') no-repeat;
     background-size: 80%;
     background-color: rgb(14, 13, 13);
     background-position: top right;
@@ -12,35 +12,60 @@ h1 {
 
 .post {
     margin: 20px;
-    height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     color: white;
     font-size: 32px;
+    margin-bottom: 40px;
 }
 
-.post:hover {
-    transition: transform 0.1s ease;
-}
-
-.icon_contact{
+.icon_contact {
+    box-shadow: 1px 1px 5px yellowgreen;
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
+    width: max-content;
     justify-content: center;
     padding: 2%;
-    /* width: 90%; */
     border: 2px solid white;
     border-radius: 10px;
     font-size: 10px;
     color: azure;
+    gap: 5%;
+    margin: 30px;
 }
+
 .icon_contact a {
     margin: 10px;
+    
+    text-decoration: none;
+    color: azure;
 }
-.src{
+
+.src {
     text-align: center;
     color: aliceblue;
 }
+
 .icon_contact a :hover {
     transform: scale(1.2);
+    transition: transform 0.1s ease;
+}
+.gallery{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    max-height: 220px;
+    margin: 0.5%;
+    border-radius: 4px;
+}
+.gallery video {
+    max-height: 220px;
+    margin: 0.5%;
+    border-radius: 4px;
 }
