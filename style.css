@@ -25,6 +25,7 @@ h1 {
 
 .icon_contact{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 2%;
     /* width: 90%; */
