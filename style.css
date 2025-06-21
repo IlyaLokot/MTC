@@ -1,5 +1,5 @@
 body {
-    background: url('/images/background.png') no-repeat ;
+    background: url('images/background.png') no-repeat ;
     background-size: 80%;
     background-color: rgb(14, 13, 13);
     background-position: top right;
