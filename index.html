@@ -3,20 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <title>МастерТехсервис</title>
-    <link rel="icon" href="">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <div class="post">
         <img src="images/main_logo.png" alt="" style="width: 32%;">
         <h2>Аренда спецтехники в Краснодаре</h2>
-        <ul>Заказать
-            <li>от 3х ч - с частными лицами</li>
-            <li>от 3х смен-по договору</li>
-        </ul>
+        <div class="empty"></div>
+        <div class="shadow-box">
+            <ul>Заказать
+                <li>от 3х ч - с частными лицами</li>
+                <li>от 3х смен-по договору</li>
+            </ul>
+        </div>
+
 
 
 
@@ -26,19 +31,8 @@
 
 
         <!-- <h2 style="text-align: center;">Галерея</h2> -->
-        <div class="gallery">
-            <img src="images/cat_1.jpg">
-            <video src="videos/cat4.mp4" controls autoplay muted loop>Уборка плодородного слоя</video>
-            <img src="images/hyundai2.jpg">
-            <img src="images/hyundai3.jpg">
-            <img src="images/cat2.jpg">
-            <img src="images/cat4.jpg">
-            <img src="images/cat5.jpg">
-            <img src="images/cat6.jpg">
-            <video src="videos/cat3.mp4" controls autoplay muted loop></video>
-            <img src="images/cat7.jpg">
-            <img src="images/cat8.jpg">
-            <img src="images/hyundai1.jpg">
+        <div class="gallery" id="gallery">
+
         </div>
         <h2 style="text-align: center;">Свяжитесь с нами:</h2>
         <div class="icon_contact">
@@ -67,6 +61,8 @@
             </a>
         </div>
     </div>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>
